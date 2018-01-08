@@ -1,10 +1,300 @@
-<html> 
-     <head> 
-          <title> 
-		  Test
-          </title>
-     </head> 
-     <body> 
-          <p> Hello world!</p> 
-     </body> 
+<!DOCTYPE html>
+<!-- ==============================
+    Project:        Metronic "Acecv" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+    Version:        1.0
+    Author:         KeenThemes
+    Primary use:    Corporate, Business Themes.
+    Email:          support@keenthemes.com
+    Follow:         http://www.twitter.com/keenthemes
+    Like:           http://www.facebook.com/keenthemes
+    Website:        http://www.keenthemes.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+================================== -->
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Metronic "Acecv" Frontend Freebie</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <div class="promo-block">
+            <div class="container">
+                <div class="row">
+                            <h1 class="promo-block-title">Разработка высоконагруженной распределенной системы</h1>
+                      
+                    </div>
+					
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                        <div class="section-seperator">
+                            <div>
+                                <div class="margin-b-30">
+                                    <h2>Этот урок посвещен каким образом развернуть локально типовую структуру распределенного высоконагруженного приложения, на примере системы университета, которое включает в себя несколько базовых микросервисов: </br> </br>
+									<a class="nav-item-child nav-item-hover" href="#auth">1. Сервис авторизации</a> </br>
+									<a class="nav-item-child nav-item-hover" href="#log">2. Сервис логирования</a> </br>
+									<a class="nav-item-child nav-item-hover" href="#check-in">3. Сервис регистрации входа/выхода студентов</a> </br>
+									<a class="nav-item-child nav-item-hover" href="#client">4. Сервис с клиентской частью</a> </br>
+									Каждый из сервисов запускается в Docker контейнере. 
+									</h2>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- auth -->
+        <div id="auth">
+            <div class="container">
+                <div class="row">
+                        <div class="section-seperator margin-b-50">
+                            <div>
+                                <div class="margin-b-30">
+								<h4>1. Сервис авторизации</h4>
+                                    <h2>Реализацию сервиса авторизации можно скачать с Github по ссылке: 
+									<a class="nav-item-child nav-item-hover" href="https://github.com/pyataevaev/auth-service" target="_blank">Github репозиторий с сервисом авторизации</a> </br>
+									В директории src/docker/ находится Dockerfile, в котором описаны шаги сборки образа для сервиса авторизации. Сам образ размещен на публичном хранилище образов  
+									Docker Hub. Можно скачать данный образ и запустить на его основе контейнер локально. Сделать это можно следующей командой: docker pull ekaterinach/auth
+									</h2>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End auth -->
+		
+		<!-- log -->
+        <div id="log">
+              <div class="container">
+                <div class="row">
+                        <div class="section-seperator margin-b-50">
+                            <div>
+                                <div class="margin-b-30">
+								<h4>2. Сервис логирования</h4>
+                                    <h2>Реализацию сервиса авторизации можно скачать с Github по ссылке: 
+									<a class="nav-item-child nav-item-hover" href="https://github.com/pyataevaev/logging-service" target="_blank">Github репозиторий с логирования </a> </br>
+									В директории src/docker/ находится Dockerfile, в котором описаны шаги сборки образа для сервиса авторизации. Сам образ размещен на публичном хранилище образов  
+									Docker Hub. Можно скачать данный образ и запустить на его основе контейнер локально. Сделать это можно следующей командой: docker pull ekaterinach/logging
+									</h2>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End log -->
+		
+		<!-- check-in -->
+        <div id="check-in">
+            <div class="container">
+                <div class="row">
+                        <div class="section-seperator margin-b-50">
+                            <div>
+                                <div class="margin-b-30">
+								<h4>3. Сервис регистрации входа/выхода студентов</h4>
+                                    <h2>Реализацию сервиса авторизации можно скачать с Github по ссылке: 
+									<a class="nav-item-child nav-item-hover" href="https://github.com/pyataevaev/logging-service" target="_blank">Github репозиторий с логирования </a> </br>
+									В директории src/docker/ находится Dockerfile, в котором описаны шаги сборки образа для сервиса авторизации. Сам образ размещен на публичном хранилище образов  
+									Docker Hub. Можно скачать данный образ и запустить на его основе контейнер локально. Сделать это можно следующей командой: docker pull ekaterinach/check-in
+									</h2>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End check-in -->
+		
+		
+		<!-- client -->
+        <div id="client">
+            <div class="container">
+                <div class="row">
+                        <div class="section-seperator margin-b-50">
+                            <div>
+                                <div class="margin-b-30">
+								<h4>4. Сервис с клиентской частью</h4>
+                                    <h2>Реализацию сервиса авторизации можно скачать с Github по ссылке: 
+									<a class="nav-item-child nav-item-hover" href="https://github.com/pyataevaev/client" target="_blank">Github репозиторий с сервисом авторизации</a> </br>
+									В директории src/docker/ находится Dockerfile, в котором описаны шаги сборки образа для сервиса авторизации. Сам образ размещен на публичном хранилище образов  
+									Docker Hub. Можно скачать данный образ и запустить на его основе контейнер локально. Сделать это можно следующей командой: docker pull ekaterinach/client
+									</h2>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End client -->
+		
+
+        
+
+        <!-- Clients -->
+        <div class="bg-color-sky-light">
+            <div class="content-lg container">
+                <!-- Swiper Clients -->
+                <div class="swiper-slider swiper-clients">
+                    <!-- Swiper Wrapper -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
+                        </div>
+                    </div>
+                    <!-- End Swiper Wrapper -->
+                </div>
+                <!-- End Swiper Clients -->
+            </div>
+        </div>
+        <!-- End Clients -->
+
+        <!-- Promo Banner -->
+        <div class="promo-banner parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+            <div class="container-sm content-lg">
+			<p> </br></br></br></br></br></br></br></br></br></br></br></br></br></p>
+            </div>
+        </div>
+        <!-- End Promo Banner -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                           <h2>Контакты:</h2>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row">
+                        <div class="col-md-3 col-xs-6" style="padding-bottom: 50px;">
+                            <h4>Почта</h4>
+                            <a href="mailto:#">test@gmail.com</a>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
 </html>
