@@ -89,6 +89,14 @@ span {
   color: #bfc1c7;
 }
 
+.header-my {
+  color: #2e6da4;
+}
+
+.auth {
+  margin-top: 50px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-family: Hind, sans-serif;
@@ -115,7 +123,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h3 {
@@ -622,12 +630,21 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
+.fixed-height {
+  height: 50px;
+}
+
+.font {
+  font-weight: 600;
+}
+
 /* Media Queries below 991px */
 @media (max-width: 991px) {
   /* Bootstrap collapse of navigation with a maximum width: 991px
     (Change it to any breakpoint you want to be collapsed) */
   .header {
     background: #fff;
+    height: 50px;
   }
   .header .navbar-toggle {
     display: block;
@@ -801,9 +818,23 @@ fieldset[disabled] .btn-theme {
   overflow: hidden;
 }
 
+.java {
+  width: 120px !important;
+}
+
+pre {
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  border: 1px dashed #2f6fab;
+}
+
+.img {
+  width: 55%;
+}
+
 .swiper-clients-img {
   display: block;
-  width: 130px;
+  width: 170px;
   height: auto;
   margin: 0 auto;
   opacity: 1;
